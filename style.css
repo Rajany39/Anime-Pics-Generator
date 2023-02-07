@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    background: linear-gradient(to left bottom,lime,grey,red
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+    border-radius: 9px ;
+    box-shadow: 0 4px 5px;
+    width: 450px;
+    margin: 5px;
+
+}
+
+.btn{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkgray;
+    padding: 9px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.btn:disabled{
+    background-color: greenyellow;
+    cursor: not-allowed;
+}
+
+.anime-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.anime-name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blueviolet;
+    padding: 9px ;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.anime-container{
+    display: none;
+}
